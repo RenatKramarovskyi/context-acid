@@ -1,0 +1,11 @@
+.prettyInput{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    text-align: center;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 900;
+    border: 3px solid forestgreen;
+}

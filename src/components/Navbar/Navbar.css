@@ -1,0 +1,48 @@
+.navbarLight{
+    display: flex;
+    gap: 20px;
+    justify-content: right;
+    padding: 10px 50px;
+    background-color: #125812;
+
+}
+.navbarLight .navbar_links{
+    text-decoration: none;
+    color: #be6543;
+    font-weight: 900;
+    font-family: monospace;
+    font-size: 20px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.navbarLight .navbar_links:hover{
+    color: #8e8683;
+}
+.exit{
+    flex-grow: 1;
+}
+.clickable{
+    cursor: pointer;
+}
+
+/*================*/
+.navbarDark{
+    display: flex;
+    gap: 20px;
+    justify-content: right;
+    padding: 10px 50px;
+    background-color: #2a2424;
+
+}
+.navbarDark .navbar_links{
+    text-decoration: none;
+    color: #f7f2f0;
+    font-weight: 900;
+    font-family: monospace;
+    font-size: 20px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.navbarDark .navbar_links:hover{
+    color: #8e8683;
+}
